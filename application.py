@@ -9,7 +9,7 @@ app=application
 
 
 ridge_model=pickle.load(open('models/ridge.pkl','rb'))
-standard_model=pickle.load(open('models/scaler.pkl','rb'))
+standard_scaler=pickle.load(open('models/scaler.pkl','rb'))
 
 
 
